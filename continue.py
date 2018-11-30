@@ -1,0 +1,1 @@
+numbersTaken = [3, 4, 5, 6, 9, 10, 13, 17]print('Numbers still Available: ')# Loop through the numbers 1-20, print all the numbers except the ones in the list.# Continue pretty much means, if the number is in the list, skip it and continue to the next item in the list.for n in range(1, 20):	if n in numbersTaken:		continue	print(n)
