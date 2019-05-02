@@ -1,0 +1,48 @@
+#To create a website using Django, you need to have Python installed in your computer.
+You need to set a PATH in the computer's system variables that points to the installation on pip package.
+Pip is a package used to install Django packages.
+
+Steps:
+1. Create a folder in your preferred location.
+This is just a container that houses your project.
+
+2. Open the folder in Pycharm.
+
+3. Create a virtual environment.
+Click on settings, project interpreter then add a new environment.
+
+4. Open the terminal and make sure the environment you just created is active,
+if NOT, activate it:
+
+Windows => nameofenvironment\Scripts\activate
+Linux =>   source nameofenvironment/bin/activate
+
+5. Upgrade pip:
+Windows => py -m pip install --upgrade pip
+Linux => pip install --upgrade pip
+
+6. Install Django:
+pip install django
+
+7. Start a Django Project
+django-admin startproject projectname .
+
+8. Start an app(s).
+python manage.py startapp appname
+
+9. Create your models.
+
+10. Register your app(s) in settings.py
+
+11. Make migrations and migrate:
+python manage.py makemigrations
+python manage.py migrate
+
+13. Create an Admin:
+python manage.py createsuperuser
+
+12. Create your URLs.
+13. Create your views.
+14. Run the server,
+
+<!-- HAPPY CODING! -->
